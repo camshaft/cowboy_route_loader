@@ -1,0 +1,8 @@
+{application, cowboy_route_loader, [
+  {id, "cowboy_route_loader"},
+  {description, "Load and compile cowboy routes from a file"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {env, []}
+]}.
